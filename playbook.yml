@@ -1,0 +1,10 @@
+- hosts: all
+  become: true
+  vars:
+    jenkins_hostname: 127.0.0.1
+    java_packages:
+      - openjdk-11-jdk
+
+  roles:
+    - role: geerlingguy.java
+    - role: geerlingguy.jenkins

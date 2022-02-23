@@ -1,0 +1,4 @@
+---
+# these are roles from galaxy community roles
+- src: geerlingguy.java #https://galaxy.ansible.com/geerlingguy/java
+- src: geerlingguy.jenkins # https://galaxy.ansible.com/geerlingguy/jenkins
